@@ -14,7 +14,6 @@ export const App = () => {
       setGood(prev => prev + 1);
       return;
     }
-
     if (name === 'neutral') {
       setNeutral(prev => prev + 1);
       return;
