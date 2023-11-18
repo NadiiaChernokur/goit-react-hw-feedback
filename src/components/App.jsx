@@ -37,6 +37,7 @@ export const App = () => {
     <ContainerApp>
       <h1>Please leave feedback</h1>
       <Buttons options={['good', 'neutral', 'bad']} onClick={statisticPlus} />
+
       <h2>Statistics</h2>
 
       {totalCaunt() > 0 ? (
